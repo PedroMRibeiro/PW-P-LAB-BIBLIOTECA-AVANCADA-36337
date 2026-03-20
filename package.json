@@ -13,7 +13,7 @@
     "url": "git+https://github.com/PedroMRibeiro/PW-P-LAB-BIBLIOTECA-AVANCADA-36337.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pedro Ribeiro",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/PedroMRibeiro/PW-P-LAB-BIBLIOTECA-AVANCADA-36337#readme",
   "dependencies": {
     "@prisma/adapter-pg": "^7.5.0",
-    "@prisma/client": "^7.5.0",
+    "@prisma/client": "^6.19.2",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14",
-    "prisma": "^7.5.0"
+    "prisma": "^6.19.2"
   }
 }
