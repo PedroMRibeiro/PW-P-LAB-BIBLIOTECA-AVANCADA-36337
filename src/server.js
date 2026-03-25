@@ -18,6 +18,10 @@ app.use("/authors", authorRoutes);
 app.use("/books", bookRoutes);
 app.use("/stats", statsRoutes);
 
+app.get("/", (req, res) => {
+  res.status(200).json({ message: "My API  rocks 🚀!" });
+});
+
 app.use((req, res) => {
   res.status(404).json({ message: "Rota não encontrada" });
 });
@@ -32,8 +36,6 @@ if (process.env.NODE_ENV !== "production") {
   });
 }
 
-app.get("/", (req, res) => {
-  res.status(200).json({ message: "My API  rocks 🚀!" });
-});
+
 
 module.exports = app;
